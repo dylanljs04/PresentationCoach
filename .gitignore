@@ -10,6 +10,7 @@ vendor/
 .env
 .env.local
 .env.*.local
+/venv
 
 # Ignore log files and database files
 *.log
