@@ -1,0 +1,126 @@
+/* General container and typography */
+.video-analysis-container {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+    font-family: 'Roboto', sans-serif;
+    background-color: #f7f7f7;
+    color: #333;
+    position: relative;
+  }
+  
+  /* Loading overlay */
+  .loading-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.9);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+  }
+  
+  /* Sidebar for question threads */
+  .thread-sidebar {
+    width: 250px;
+    background-color: #fff;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    padding: 16px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Main content styling */
+  .main-content {
+    flex: 2;
+    background-color: #fff;
+    padding: 16px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Report and comments section */
+  .report-comments {
+    flex: 1;
+    background-color: #fff;
+    padding: 16px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Video player styling */
+  .video-player {
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 16px;
+  }
+  
+  /* Upload section styling */
+  .upload-section {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    margin-bottom: 16px;
+  }
+  
+  .upload-section label {
+    font-weight: 500;
+  }
+  
+  /* Questions section */
+  .questions-section {
+    margin-top: 20px;
+  }
+  
+  .question-card {
+    background-color: #fafafa;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    padding: 12px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+  }
+  
+  .question-card:hover {
+    background-color: #f0f0f0;
+  }
+  
+  /* Comment cards */
+  .comment-card {
+    background-color: #fafafa;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    padding: 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+  }
+  
+  .comment-card:hover {
+    background-color: #f0f0f0;
+  }
+  
+  /* Button styling */
+  .button {
+    background-color: #1976d2;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 8px 12px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+  }
+  
+  .button:hover {
+    background-color: #1565c0;
+  }
+  
+  /* Audio controls margin */
+  .audio-control {
+    margin-top: 10px;
+  }
+  
