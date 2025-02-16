@@ -6,7 +6,7 @@ Presentation Coach is an AI-powered tool designed to help users improve their pr
 ## Features
 - ✅ **PDF Slide Upload** – Users can upload their slide deck (PDF format).
 - ✅ **Speech-to-Text Processing** – Converts spoken words from video into text using **OpenAI Whisper**.
-- ✅ **Presentation Evaluation** – AI provides feedback on **clarity, conciseness, and slide coherence**.
+- ✅ **Presentation Evaluation** – AI provides feedback on **clarity, conciseness, and Accuracy**.
 - ✅ **Live Audience Simulation** – AI generates questions related to the slides.
 - ✅ **Follow-up Response Evaluation** – Users record answers to AI-generated questions, and AI provides feedback.
 - ✅ **Text-to-Speech Support** – Uses **ElevenLabs API** to generate speech output for follow-up questions.
